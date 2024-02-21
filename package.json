@@ -1,0 +1,30 @@
+{
+  "name": "quurls",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@supabase/supabase-js": "^2.39.7",
+    "nanoid": "^5.0.6",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-wrap-balancer": "^1.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
