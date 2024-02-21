@@ -161,7 +161,7 @@ export default function Home() {
               </Stack>
             </Stack>
             <Box bgcolor={grey[100]} p={2} borderRadius={1} textAlign="center">
-              <Typography fontWeight="500">{`www.quurls.com/data/${generatedId}`}</Typography>
+              <Typography fontWeight="500">{`https://quurls.com/data/${generatedId}`}</Typography>
             </Box>
             <Button
               fullWidth
