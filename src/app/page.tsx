@@ -51,7 +51,7 @@ export default function Home() {
   };
 
   const onClickCopy = () => {
-    navigator.clipboard.writeText(`www.quurls.com/data/${generatedId}`);
+    navigator.clipboard.writeText(`https://quurls.com/data/${generatedId}`);
     setIsNotificationVisible(true);
     setIsModalVisible(false);
   };
